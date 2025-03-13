@@ -9,3 +9,13 @@ This web application predicts the best doctors (NPIs)
 The user inputs a specific time, 
 and the app generates a downloadable CSV file containing 
 the NPIs of the doctors most likely to participate in the survey.
+
+
+Technologies Used
+>Python (Flask, Pandas, NumPy, Scikit-learn)
+>Machine Learning (Random Forest, Logistic Regression, Ensembling)
+>Frontend (HTML, CSS, Bootstrap)
+>Data Processing (Pandas, OpenPyXL for Excel files)
+>Deployment(GitHub, Render)
+
+WEBSITE LINK -https://doc-predict-2.onrender.com/
