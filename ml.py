@@ -8,7 +8,7 @@ from sklearn.metrics import accuracy_score
 import openpyxl
 
 def load_and_process_data(file_path):
-    xls = pd.ExcelFile("doc-predict/dummy_npi_data.xlsx")
+    xls = pd.ExcelFile("dummy_npi_data.xlsx")
     df = pd.read_excel(xls, sheet_name="Dataset")
     df["Login Hour"] = df["Login Time"].dt.hour
     df["Logout Hour"] = df["Logout Time"].dt.hour
