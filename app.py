@@ -3,7 +3,7 @@ import pandas as pd
 import os
 from ml import load_and_process_data, train_ml_model, get_best_doctors, export_to_csv
 
-df = load_and_process_data("dummy_npi_data.xlsx")
+df = load_and_process_data("doc-predict/dummy_npi_data.xlsx")
 model = train_ml_model(df)
 app = Flask(__name__)
 
